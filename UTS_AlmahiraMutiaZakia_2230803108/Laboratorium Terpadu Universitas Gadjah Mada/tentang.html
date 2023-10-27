@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorium Terpadu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="col-1">
+    <div id="logo">
+      <img src="Universitas Gadja Mada.jpg" alt="logo"></img>
+    </div>
+
+    <nav id="articlepop">Tentang Laboratorium</nav>
+    <ul class="menu-list">
+      <li>Fasilitas Gedung</li>
+      <li>Fasilitas Alat Penelitian</li>
+      <li>Fasilitas Alat Pendukung Penelitian</li>
+      <li>Fasilitas Penunjang</li>
+    </ul>
+
+  </div>
+
+  <div class="col-2">
+    <header class="col-3">
+      <p class="title">Selamat Datang </p>
+      <p class="subtitle">INI ADALAH HALAMAN UTAMA LABORATORIUM TERPADU</p>
+    </header>
+    <nav class="navigation-menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="tentang.html">TENTANG</a></li>
+        <li><a href="galeri.html">GALERI</a></li>
+        <li><a href="kontak.html">KONTAK</a></li>
+        <li><a href="daftar.html">DAFTAR ISI</a></li>
+        <li><a href="bukutamu.html">BUKU TAMU</a></li>
+      </ul>
+    </nav>
+    <main class="content">
+      <article class="article">
+        <h2>Tentang Laboratorium</h2>
+        <p>LPPT UGM adalah laboratorium pusat universitas yang merupakan gabungan dari 4 (empat) laboratorium pusat
+        yaitu Laboratorium Analisis Kimia dan Fisika Pusat (LAKFIP), Laboratorium Ilmu Hayati (LIH)
+        Pusat Studi Obat Tradisional (PSOT) dan Unit Pelayayanan Hewan Percobaan (UPHP)
+        Semua laboratorium pusat tersebut telah dikenal dan mampu memberikan layanan dan kontribusi bagi universitas maupun
+        masyarakat sesuai dengan lingkup bidang dan kompetensinya.</P>
+          LPPT UGM secara formal didirikan menurut SK Rektor No. 265/P/SK/HT/2004 tanggal 29 November 2004.
+           Pada awal tahun 2005, tim manajemen LPPT UGM telah lengkap dimana tim manajemen memiliki komitmen tinggi untuk meningkatkan kontribusi setiap laboratorium tersebut ke arah yang lebih strategis, 
+           terpadu, kolaboratif dan dilandasi oleh pendekatan antar-bidang ilmu.
+           LPPT UGM dijalankan dengan prinsip manajemen laboratorium standar ISO/IEC 17025:2000,
+           dengan penguatan kompetensi awal di bidang uji vitamin dan pestisida.
+          LPPT UGM juga dapat melakukan pengujian di bidang mikotoxin, fitofarmaka, obat tradisional, fitomedicine, 
+          uji keunsuran (trace-element), dll.
+          <P>LPPT UGM juga dapat melayani pengembangan penelitian, pengembangan produk, metode dan alat yang berorientasi SNI, 
+            pengembangan dan pembuatan teknologi penunjang penelitian, teknologi penunjang proses industri, teknologi inovatif berorientasi kepemilikan hak kekayaan intelektual,
+             dan memfasilitasi kerjasama kemitraan.</P>
+      </article>      
+    </main>
+  </div>
+  <footer>
+    <div class="footertext">
+      <p>&copy; Copyright 2023. All Rights Reserved<br>Fakultas Laboratorium Terpadu
+    </div>
+  </footer>
+  <script>
+
+    function showFooterOnScroll() {
+      var footer = document.querySelector('footer');
+      var scrollPosition = window.scrollY || window.pageYOffset;
+  
+      if (scrollPosition > 1) { 
+        footer.style.display = 'block';
+      } else {
+        footer.style.display = 'none';
+      }
+    }
+  
+  
+    window.addEventListener('scroll', showFooterOnScroll);
+  </script>
+</body>
+</html>
